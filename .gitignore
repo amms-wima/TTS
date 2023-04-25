@@ -169,3 +169,7 @@ wandb
 depot/*
 coqui_recipes/*
 local_scripts/*
+
+play/build
+play/training_data/
+training_data/
