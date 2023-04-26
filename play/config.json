@@ -52,8 +52,8 @@
     "cudnn_benchmark": true,
     "training_seed": 54321,
     "model": "vits",
-    "num_loader_workers": 4,
-    "num_eval_loader_workers": 4,
+    "num_loader_workers": 2,
+    "num_eval_loader_workers": 2,
     "use_noise_augment": true,
     "audio": {
         "fft_size": 1024,
