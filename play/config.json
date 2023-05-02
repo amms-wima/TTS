@@ -71,7 +71,7 @@
     "text_cleaner": "english_cleaners",
     "enable_eos_bos_chars": false,
     "test_sentences_file": "",
-    "phoneme_cache_path": "pho_cache",
+    "phoneme_cache_path": "/home/ash/prj/aw-coqui-TTS/play/pho_cache",
     "characters": {
         "characters_class": "TTS.tts.models.vits.VitsCharacters",
         "vocab_dict": null,
@@ -103,12 +103,12 @@
         {
             "formatter": "ljspeech_ms_col2",
             "dataset_name": "ashinw_voice",
-            "path": "training_data/filelists/concat",
-            "meta_file_train": "single_speaker_ashinw.csv",
+            "path": "/home/ash/prj/aw-coqui-TTS/play/training_data/filelists/concat",
+            "meta_file_train": "ashinw_ljs.cleaned.csv",
             "ignored_speakers": null,
             "language": "",
             "phonemizer": "",
-            "meta_file_val": "single_speaker_ashinw-eval.csv",
+            "meta_file_val": "ashinw_ljs-eval.csv",
             "meta_file_attn_mask": ""
         }
     ],
@@ -199,7 +199,7 @@
         "use_spectral_norm_disriminator": false,
         "use_speaker_embedding": false,
         "num_speakers": 110,
-        "speakers_file": null,
+        "speakers_file": "/home/ash/prj/aw-coqui-TTS/play/speaker_ids.json",
         "d_vector_file": null,
         "speaker_embedding_channels": 256,
         "use_d_vector_file": false,
@@ -249,7 +249,7 @@
     "r": 1,
     "num_speakers": 110,
     "use_speaker_embedding": false,
-    "speakers_file": "speaker_ids.json",
+    "speakers_file": "/home/ash/prj/aw-coqui-TTS/play/speaker_ids.json",
     "speaker_embedding_channels": 256,
     "language_ids_file": null,
     "use_language_embedding": false,
